@@ -1,0 +1,3 @@
+display_name: Multi-Mail
+short_description: Manage multiple IMAP mailboxes from Codex.
+default_prompt: Check my configured mailboxes, summarize important unread mail, and draft replies only after I approve the direction.

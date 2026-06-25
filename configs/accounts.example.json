@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "accounts": [
+    {
+      "id": "personal",
+      "display_name": "Personal Mail",
+      "email": "user@example.com",
+      "provider": "imap",
+      "enabled": true,
+      "username": "user@example.com",
+      "imap_host": "imap.example.com",
+      "imap_port": 993,
+      "smtp_host": "smtp.example.com",
+      "smtp_port": 465,
+      "folder": "INBOX",
+      "password_env": "MAIL_PERSONAL_AUTH_CODE",
+      "server_verified": false,
+      "login_verified": false
+    },
+    {
+      "id": "work",
+      "display_name": "Work Mail",
+      "email": "user@work.example",
+      "provider": "imap",
+      "enabled": true,
+      "username": "user@work.example",
+      "imap_host": "imap.work.example",
+      "imap_port": 993,
+      "smtp_host": "smtp.work.example",
+      "smtp_port": 465,
+      "folder": "INBOX",
+      "password_env": "MAIL_WORK_AUTH_CODE",
+      "server_verified": false,
+      "login_verified": false
+    }
+  ]
+}

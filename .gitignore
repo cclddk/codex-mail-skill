@@ -1,0 +1,9 @@
+.env
+configs/.env
+configs/accounts.json
+configs/drafts/
+configs/last-summary*.json
+configs/last-summary*.md
+configs/delete-results*.json
+__pycache__/
+*.pyc
